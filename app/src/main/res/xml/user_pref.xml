@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="saveOrder"
+        android:summary="for quick loading of favourite order"
+        android:title="Enable saving order" />
+
+    <PreferenceCategory android:title="ORDER HISTORY">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="keepHistory"
+            android:summary="of pizza orders"
+            android:title="Keep History" />
+
+        <ListPreference
+            android:defaultValue="3"
+            android:dialogTitle="Choose how many to save"
+            android:entries="@array/save_numbers"
+            android:entryValues="@array/save_numbers_values"
+            android:key="saveNumbers"
+            android:summary="3 pizza orders"
+            android:title="Number of orders" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

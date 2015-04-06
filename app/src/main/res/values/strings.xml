@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ErinWard_AdamCordeiro_A3</string>
+    <string name="action_settings">Settings</string>
+    <string name="small">Small</string>
+    <string name="medium">Medium</string>
+    <string name="large">Large</string>
+    <string name="size">Pizza Size</string>
+    <string name="toppings">Toppings</string>
+    <string name="pepper">Pepper</string>
+    <string name="bacon">Bacon</string>
+    <string name="sausage">Sausage</string>
+    <string name="pepperoni">Pepperoni</string>
+    <string name="cheese">Cheese</string>
+    <string name="order">Order</string>
+    <string name="load">LOAD</string>
+    <string name="save">SAVE</string>
+    <string-array name="save_numbers">
+        <item>1 pizza order only</item>
+        <item>3 pizza orders</item>
+        <item>5 pizza orders</item>
+        <item>10 pizza orders</item>
+    </string-array>
+    <string-array name="save_numbers_values">
+        <item>1</item>
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+
+</resources>
